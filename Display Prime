@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+		public class Prime_Number {
+
+		   
+		    public static void main(String[] args) {
+		    	int sa, status = 1, sum = 3;
+		   
+		    	// The Choosing of the Prime Number that you want to Display
+		    	
+		    	Scanner sam = new Scanner(System.in);
+		    	System.out.println("Put in the Number of Prime Numbers that you want to display");
+		    	 sa = sam.nextInt();
+		    	
+		       //How many Prime Number that will Display
+		            
+		    	 if (sa >=1) {
+		                System.out.println("Here are the "+ sa +" Prime Numbers you are looking for: ");
+		            	System.out.println(2);
+		            }
+		            
+		            //The Code for the Prime Numbers
+		            
+		          for (int count = 2; count <= sa;) {   
+		    
+		          for (int j=2; j<=Math.sqrt(sum); j++)
+		          {
+		        	  if (sum % j==0);
+		        	  {
+		        		  status=0;
+		        		  break;
+		        		  }
+		          }
+		   if (status != 0 ){  
+		   } 
+		    System.out.println(sum);
+		    count++;
+		    {
+		    status =1;
+		    sum++;
+		}
+		          
+		    }
+		}
+		
+		}
